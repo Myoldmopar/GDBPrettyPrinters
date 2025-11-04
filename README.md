@@ -28,7 +28,7 @@ If it isn't found by default, and your IDE complains about not being able to imp
 
 ## Testing
 
-Yes!
+Yes!  I'll need to either mock the GDB objects, run gdb in an automated manner and parse outputs, or just extract out non-gdb code into a separate file and test that stuff.
 
 ## Contributing
 
