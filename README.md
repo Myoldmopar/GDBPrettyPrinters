@@ -24,4 +24,12 @@ Next time you run gdb, the pretty printer should be loaded, and in a suitable co
 
 If you open this project, it _should_ load up the stubs folder automatically for code completion.
 The GDB stub file is not complete, but is sufficient for the API calls used in this pretty printer.
+If it isn't found by default, and your IDE complains about not being able to import gdb, you can mark the stubs folder as a "Sources Root" or equivalent in your IDE.
+
+## Testing
+
+Yes!
+
+## Contributing
+
 I welcome more printers and added GDB stubs if you want to contribute!
